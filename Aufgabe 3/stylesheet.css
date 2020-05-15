@@ -51,11 +51,17 @@ header {
     padding-left: 220px;
 }
 
-
-#script {
-   src="https://fionavi.github.io/EIA-SOSE20/Aufgabe 3/insta_icon.jpg"></script> 
+.fb {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 80px
 }
 
+.fb a:active {
+    color: rgb(7, 143, 153);
+
+}
 
 
   li {
