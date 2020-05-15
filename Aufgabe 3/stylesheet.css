@@ -13,11 +13,11 @@
 
 header {
     background-color: darkred;
-    height: 550px;
-    width: 1100px;
-    -webkit-border-radius: 500px 500px 500px 500px;
-    -moz-border-radius: 500px 500px 500px 500px;
-    border-radius: 0px 0px 700px 700px;
+    height: 275px;
+    width: 550px;
+    -webkit-border-radius: 250px 250px 250px 250px;
+    -moz-border-radius: 250px 250px 250px 250px;
+    border-radius: 0px 0px 350px 350px;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -25,7 +25,21 @@ header {
     border-top: 0px;
     padding-top: 0px;
 
+   }
+   
+.textaufkreis {
+    font-size: 90px;
+    color: white;
 }
+
+.untertext {
+    font-size: 15px;
+    color: white;
+    text-align: right;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 130px 0px 70px;
+}
+
 
 
   li {
@@ -203,3 +217,4 @@ h2{
 #contact_link a {
     color: crimson;
 }
+
