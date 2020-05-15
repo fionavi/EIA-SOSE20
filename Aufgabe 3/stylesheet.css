@@ -17,10 +17,16 @@
     border-right: 1px solid #bbb;
     border-radius: 25px;
 }
+
+ul:first-child a{
+    border-radius: 15px 15px;
+}
  
+
 ul {
     position: sticky;
     top: 0;
+    
 
 }
 
@@ -42,7 +48,7 @@ li a:active {
     margin: 0 auto;
     position: fixed;
     right: 15px;
-    left: 50px
+    left: 50px;
     top: 0;
     border: solid;
     border-radius: 15px 15px 15px 15px;
