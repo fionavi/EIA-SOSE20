@@ -59,10 +59,8 @@ header {
     left: 80px;
 }
 
-.fb a:hover {
-    background-color: rgb(134, 139, 139);
-    padding: 10px 1px 1px 1px;
-    margin: 1px 1px -1px 1px;
+.fb:hover{
+    opacity: 0.5;
 }
 
 
