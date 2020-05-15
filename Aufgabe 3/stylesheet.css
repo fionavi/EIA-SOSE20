@@ -5,7 +5,6 @@
 
     
     font-family: sans-serif;
-    
     text-align:center;
   }
 
@@ -21,23 +20,40 @@ header {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0px;
+    margin-top: -5px;
     border-top: 0px;
-    padding-top: 0px;
+    padding-top: -5px;
 
    }
    
 .textaufkreis {
     font-size: 90px;
     color: white;
+    position: relative;
+    
+    
+}
+
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    padding-left: 120px;
 }
 
 .untertext {
     font-size: 15px;
+    width: 200px;
     color: white;
     text-align: right;
-    margin: 0px 0px 0px 0px;
-    padding: 10px 130px 0px 70px;
+    padding-left: 220px;
+}
+
+
+#script {
+   src="https://fionavi.github.io/EIA-SOSE20/Aufgabe 3/insta_icon.jpg"></script> 
 }
 
 
@@ -79,14 +95,14 @@ li a:active {
     margin: 5px;
     position: fixed;
     right: 15px;
-    left: 1100px;
+    left: 1270px;
     top: 0;
     width: 218px;
     border: solid;
     border-radius: 15px 15px 15px 15px;
     text-align: center;
     background-color: black;
-
+    z-index : 2;
 
    
     display: block;
@@ -122,6 +138,7 @@ h2{
     padding: 2px 0px;
     margin: 7px 300px;
     text-align: left;
+    
    
 }
 
