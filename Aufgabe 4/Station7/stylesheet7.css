@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://raw.githubusercontent.com/gabriel-rausch/EIA1-SoSe20/master/L04/task_material/Station_7_Youtube/images/bg.png");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.videocontainer{
+    display:inline-block;
+    position:absolute;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+.banner{
+    display:inline-block;
+    position:absolute;
+    margin-left: 185px;
+    margin-top: 138px;
+    z-index: 100;
+}
+
+img{
+ align-self: center;
+}
+
+
