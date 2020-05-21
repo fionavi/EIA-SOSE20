@@ -3,25 +3,14 @@ body{
 }
 
 .container {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-   
-}
-
-.card {
-    position: relative;
-    text-align: center;
     display: flex;
-    width: 100%;
-    height: 400px;
+    justify-content: center;
     align-items: center;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    margin-left: 25%;
-    margin-right: auto;
+    position: relative;
+    margin-left: 60%;
+    margin-right: 50%;
+    margin-bottom: 10%;
+    margin-top: 10%;
 
 }
 
@@ -30,7 +19,7 @@ body{
     background-image: url("https://raw.githubusercontent.com/fionavi/EIA-SOSE20/master/Aufgabe%204/Station2/muschel.png");
     width: 70px;
     height: 65px;
-    margin-left: 100px ;
+    margin-left: -150px ;
 }
 
 .image2 {
@@ -38,7 +27,8 @@ body{
     background-image: url("https://raw.githubusercontent.com/fionavi/EIA-SOSE20/master/Aufgabe%204/Station2/muschel.png");
     width: 70px;
     height: 65px;
-    margin-left: 250px ;
+    margin-left: 0px ;
+    margin-top: -50px;
     
 }
 
@@ -47,7 +37,7 @@ body{
     background-image: url("https://raw.githubusercontent.com/fionavi/EIA-SOSE20/master/Aufgabe%204/Station2/muschel.png");
     width: 70px;
     height: 65px;
-    margin-left: 400px ;
+    margin-left: 150px ;
   
 }
 
@@ -73,7 +63,7 @@ body{
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         
-        font-size: large;
+        font-size: xx-large;
         color: maroon;
         
  }
