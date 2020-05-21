@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://raw.githubusercontent.com/fionavi/EIA-SOSE20/master/Aufgabe 4/Station1/Bilder/bg.png");
+}
+
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.card {
+    position: relative;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 480px;
+    align-items: flex-end;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 25%;
+    margin-right: auto;
+
+}
+
+
+
+.muscheln {
+    position: absolute;
+   
+   
+}
+
+
+.pinguin {
+    position: absolute;
+    padding-left: 630px;
+}
+
+p { position: absolute;
+    text-align: left;
+    width: 70%;
+    top: 40%;
+    left: 6%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+    font-size: x-large;
+    color: silver;
+    
