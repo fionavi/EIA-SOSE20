@@ -1,6 +1,9 @@
 body{
-    background-image: url("https://raw.githubusercontent.com/gabriel-rausch/EIA1-SoSe20/master/L04/task_material/Station_5_Spaltenlayout/images/bg.png");
-    font-family: sans-serif;
-    color: lemonchiffon;
-    text-align: left;
+    background-image: url("https://raw.githubusercontent.com/fionavi/EIA-SOSE20/master/Aufgabe%204/background.JPG");
+}
+
+a {
+font-family: sans-serif;
+text-align: center;
+font-size: xx-large;
 }
