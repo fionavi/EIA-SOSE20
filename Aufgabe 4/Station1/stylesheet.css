@@ -4,25 +4,15 @@ body{
 
 
 .container {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-   
-}
-
-.card {
-    position: relative;
-    text-align: center;
     display: flex;
-    width: 100%;
-    height: 480px;
-    align-items: flex-end;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    margin-left: 25%;
-    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 50%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 900px;
 
 }
 
@@ -30,6 +20,8 @@ body{
 
 .muscheln {
     position: absolute;
+    margin-top: 180px;
+    margin-left: -320px;
    
    
 }
@@ -37,18 +29,24 @@ body{
 
 .pinguin {
     position: absolute;
-    padding-left: 630px;
+    margin-top: 190px;
+    margin-left: 350px;
+   
 }
 
-p { position: absolute;
-    text-align: left;
-    width: 70%;
-    top: 40%;
-    left: 6%;
+.text {
+    position: absolute;
+    text-align: center;
+    width:600px;
+    top: 74%;
+    margin-top: -170px;
+    margin-left: 0px;
+    right: initial;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     
     font-size: x-large;
     color: silver;
-    
+    z-index: 100;
+}
