@@ -20,7 +20,7 @@ p {
     position: absolute;
     height: fit-content;
     top: 120px;
-    left: -300px;
+    left: -250px;
     width: 500px;
     align-self: flex-start;
     font-family: sans-serif;
@@ -34,7 +34,7 @@ p {
 .banner{
     display:inline-block;
     position:absolute;
-    margin-left: 150px;
+    margin-left: 180px;
     margin-top: 138px;
     z-index: 100;
 }
@@ -44,16 +44,16 @@ p {
 
 
 @keyframes fall {
-    from {top: -130px;}
-  to {top: 140px;}
+    from {top: -0px;}
+  to {top: 330px;}
 
 }
 
 #m1 {
    
-    left:-550px;
+    left:-250px;
     top:0px;
-    position:relative;
+    position:absolute;
     animation: "fall" 5s infinite;
     
     animation-name: fall;
@@ -69,9 +69,9 @@ p {
 
 #m2 {
 
-    left:-400px;
-    top:400px;
-    position:relative;
+    left:-50px;
+    top:0px;
+    position:absolute;
     animation: "fall" 5s infinite;
     
     animation-name: fall;
@@ -87,10 +87,10 @@ p {
 
 #m3 {
     
-    left:-250px;
-    top:500px;
+    left: 150px;
+    top:0px;
     margin-bottom: 500;
-    position:relative;
+    position:absolute;
     animation: "fall" 5s infinite;
     
     animation-name: fall;
