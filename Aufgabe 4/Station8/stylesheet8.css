@@ -9,8 +9,8 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50%;
+    margin-right: 50%;
     margin-bottom: auto;
     margin-top: 10%;
 }
@@ -20,7 +20,8 @@ p {
     position: absolute;
     height: fit-content;
     top: 120px;
-    left: 460px;
+    left: -300px;
+    width: 500px;
     align-self: flex-start;
     font-family: sans-serif;
     font-size: large;
@@ -33,7 +34,7 @@ p {
 .banner{
     display:inline-block;
     position:absolute;
-    margin-left: 70px;
+    margin-left: 150px;
     margin-top: 138px;
     z-index: 100;
 }
@@ -43,7 +44,7 @@ p {
 
 
 @keyframes fall {
-    from {top: -180px;}
+    from {top: -130px;}
   to {top: 140px;}
 
 }
@@ -69,7 +70,7 @@ p {
 #m2 {
 
     left:-400px;
-    top:100px;
+    top:400px;
     position:relative;
     animation: "fall" 5s infinite;
     
@@ -87,7 +88,7 @@ p {
 #m3 {
     
     left:-250px;
-    top:-400px;
+    top:500px;
     margin-bottom: 500;
     position:relative;
     animation: "fall" 5s infinite;
