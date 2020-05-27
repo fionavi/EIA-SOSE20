@@ -1,6 +1,5 @@
 "use strict";
 console.log("Hallo Hallo Hallo HAllo HAllo");
-console.log();
 var emissionAbsolutEurope = 4209.3;
 var emissionAbsolutNorthA = 6035.6;
 var emissionAbsolutSouthA = 1261.5;

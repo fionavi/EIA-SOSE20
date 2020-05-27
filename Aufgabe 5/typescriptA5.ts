@@ -1,6 +1,7 @@
 console.log("Hallo Hallo Hallo HAllo HAllo");
 
-console.log(var emissionAbsolutEurope: number = 4209.3);
+
+var emissionAbsolutEurope: number = 4209.3);
 
 var emissionAbsolutNorthA: number = 6035.6;
 

@@ -2,7 +2,8 @@ console.log("Hallo Hallo");
 
 console.log("Hallo Hallo Hallo HAllo HAllo");
 
-console.log(var emissionAbsolutEurope: number = 4209.3);
+
+var emissionAbsolutEurope: number = 4209.3);
 
 var emissionAbsolutNorthA: number = 6035.6;
 
@@ -57,37 +58,37 @@ var growthAbsoluteAustralia: number = 2100.5 - 1993;
 
 
 
-console.log("Die Emission von Europa ist:" number(EmissionAbsolutEurope) "kg CO2")
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit" result relativeEurope "%")
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um" result growthEurope "% verändert")
-console.log("2018 im Vergleich zu 2008 sind das" result growthAbsoluteEurope "kg CO2")
+console.log("Die Emission von Europa ist:" + emissionAbsolutEurope + "kg CO2")
+console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit" + relativeEurope + "%")
+console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um" + growthEurope + "% verändert")
+console.log("2018 im Vergleich zu 2008 sind das" + growthAbsoluteEurope + "kg CO2")
 
 
-console.log("Die Emission von Europa ist:" number(EmissionAbsolutNorthA) "kg CO2")
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit" result relativeNorthA "%")
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um" result growthNorthA "% verändert")
-console.log("2018 im Vergleich zu 2008 sind das" result growthAbsoluteNorthA "kg CO2")
+console.log("Die Emission von Nordamerika ist:" + emissionAbsolutNorthA + "kg CO2")
+console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit" + relativeNorthA + "%")
+console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um" + growthNorthA + "% verändert")
+console.log("2018 im Vergleich zu 2008 sind das" + growthAbsoluteNorthA + "kg CO2")
 
 
-console.log("Die Emission von Europa ist:" number(EmissionAbsolutSouthA) "kg CO2")
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit" result relativeSouthA "%")
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um" result growthSouthA "% verändert")
-console.log("2018 im Vergleich zu 2008 sind das" result growthAbsoluteSouthA "kg CO2")
+console.log("Die Emission von Südamerika ist:" + emissionAbsolutSouthA + "kg CO2")
+console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit" + relativeSouthA + "%")
+console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um" + growthSouthA + "% verändert")
+console.log("2018 im Vergleich zu 2008 sind das" + growthAbsoluteSouthA + "kg CO2")
 
 
-console.log("Die Emission von Europa ist:" number(EmissionAbsolutAfrica) "kg CO2")
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit" result relativeAfrica "%")
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um" result growthAfrica "% verändert")
-console.log("2018 im Vergleich zu 2008 sind das" result growthAbsoluteAfrica "kg CO2")
+console.log("Die Emission von Afrika ist:" + emissionAbsolutAfrica + "kg CO2")
+console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit" + relativeAfrica + "%")
+console.log("Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um" + growthAfrica + "% verändert")
+console.log("2018 im Vergleich zu 2008 sind das" + growthAbsoluteAfrica + "kg CO2")
 
 
-console.log("Die Emission von Europa ist:" number(EmissionAbsolutAsia) "kg CO2")
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit" result relativeAsia "%")
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um" result growthAsia "% verändert")
-console.log("2018 im Vergleich zu 2008 sind das" result growthAbsoluteAsia "kg CO2")
+console.log("Die Emission von Asien ist:" + emissionAbsolutAsia + "kg CO2")
+console.log("Relativ zur Gesamtemission der Welt verursacht Asien damit" + relativeAsia + "%")
+console.log("Für Asien hat sich 2018 im Vergleich zu 2008 die Emission um" + growthAsia + "% verändert")
+console.log("2018 im Vergleich zu 2008 sind das" + growthAbsoluteAsia + "kg CO2")
 
 
-console.log("Die Emission von Europa ist:" number(EmissionAbsolutAustralia) "kg CO2")
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit" result relativeAustralia "%")
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um" result growthAustralia "% verändert")
-console.log("2018 im Vergleich zu 2008 sind das" result(growthAbsoluteAustralia) "kg CO2")
+console.log("Die Emission von Australien ist:" + emissionAbsolutAustralia + "kg CO2")
+console.log("Relativ zur Gesamtemission der Welt verursacht Australien damit" + relativeAustralia + "%")
+console.log("Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um" + growthAustralia + "% verändert")
+console.log("2018 im Vergleich zu 2008 sind das" + growthAbsoluteAustralia + "kg CO2")
