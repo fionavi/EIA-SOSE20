@@ -1,5 +1,4 @@
 "use strict";
-console.log("Hallo Hallo");
 console.log("Hallo Hallo Hallo HAllo HAllo");
 console.log();
 var emissionAbsolutEurope = 4209.3;
@@ -50,4 +49,4 @@ console.log("Die Emission von Europa ist:", number(EmissionAbsolutAustralia), "k
 console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit", result, relativeAustralia, "%");
 console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um", result, growthAustralia, "% verändert");
 console.log("2018 im Vergleich zu 2008 sind das", result(growthAbsoluteAustralia), "kg CO2");
-//# sourceMappingURL=script.js.map
+//# sourceMappingURL=typescriptA5.js.map
