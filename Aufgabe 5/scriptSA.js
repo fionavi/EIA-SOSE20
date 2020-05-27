@@ -1,7 +1,7 @@
 "use strict";
 console.log("Südamerika");
 var emissionAbsolutSouthA = 1261.5;
-var relativeSouthA = 31116.5 / 100 * 1261.5;
+var relativeSouthA = 100 / (31116.5 / 1261.5);
 var growthSouthA = (1261.5 - 1132.6) / 1132.6;
 var growthAbsoluteSouthA = 1261.5 - 1132.6;
 console.log("Die Emission von Südamerika ist: " + emissionAbsolutSouthA + "kg CO2");

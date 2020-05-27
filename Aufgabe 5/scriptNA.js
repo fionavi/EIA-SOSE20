@@ -1,7 +1,7 @@
 "use strict";
 console.log("Nordamerika");
 var emissionAbsolutNorthA = 6035.6;
-var relativeNorthA = 31116.5 / 100 * 6035.6;
+var relativeNorthA = 100 / (31116.5 / 6035.6);
 var growthNorthA = (6035.6 - 6600.4) / 6600.4;
 var growthAbsoluteNorthA = 6035.6 - 6600.4;
 console.log("Die Emission von Nordamerika ist: " + emissionAbsolutNorthA + "kg CO2");

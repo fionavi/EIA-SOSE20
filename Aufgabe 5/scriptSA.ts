@@ -4,7 +4,7 @@ console.log("Südamerika");
 var emissionAbsolutSouthA: number = 1261.5;
 
 
-var relativeSouthA: number = 31116.5 / 100 * 1261.5;
+var relativeSouthA: number = 100 / (31116.5 / 1261.5);
 
 
 var growthSouthA: number = (1261.5 - 1132.6) / 1132.6;

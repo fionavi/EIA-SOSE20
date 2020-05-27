@@ -4,7 +4,7 @@ console.log("Asien");
 var emissionAbsolutAsia: number = 16274.1;
 
 
-var relativeAsia: number = 31116.5 / 100 * 16274.1;
+var relativeAsia: number = 100 / (31116.5 / 16274.1);
 
 
 var growthAsia: number = (16274.1 - 12954.7) / 12954.7;

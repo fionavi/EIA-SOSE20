@@ -1,7 +1,7 @@
 "use strict";
 console.log("Asien");
 var emissionAbsolutAsia = 16274.1;
-var relativeAsia = 31116.5 / 100 * 16274.1;
+var relativeAsia = 100 / (31116.5 / 16274.1);
 var growthAsia = (16274.1 - 12954.7) / 12954.7;
 var growthAbsoluteAsia = 16274.1 - 12954.7;
 console.log("Die Emission von Asien ist: " + emissionAbsolutAsia + "kg CO2");

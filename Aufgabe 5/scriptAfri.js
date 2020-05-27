@@ -1,7 +1,7 @@
 "use strict";
 console.log("Africa");
 var emissionAbsolutAfrica = 1235.5;
-var relativeAfrica = 31116.5 / 100 * 1235.5;
+var relativeAfrica = 100 / (31116.5 / 1235.5);
 var growthAfrica = (1235.5 - 1028) / 1028;
 var growthAbsoluteAfrica = 1235.5 - 1028;
 console.log("Die Emission von Afrika ist: " + emissionAbsolutAfrica + "kg CO2");

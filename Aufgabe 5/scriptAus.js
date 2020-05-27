@@ -1,7 +1,7 @@
 "use strict";
 console.log("Australia");
 var emissionAbsolutAustralia = 2100.5;
-var relativeAustralia = 31116.5 / 100 * 2100.5;
+var relativeAustralia = 100 / (31116.5 / 2100.5);
 var growthAustralia = (2100.5 - 1993) / 1993;
 var growthAbsoluteAustralia = 2100.5 - 1993;
 console.log("Die Emission von Australien ist: " + emissionAbsolutAustralia + "kg CO2");

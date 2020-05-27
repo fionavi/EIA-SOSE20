@@ -6,7 +6,7 @@ console.log("Australia");
 var emissionAbsolutAustralia: number = 2100.5;
 
 
-var relativeAustralia: number = 31116.5 / 100 * 2100.5;
+var relativeAustralia: number = 100 / (31116.5 / 2100.5);
 
 
 var growthAustralia: number = (2100.5 - 1993) / 1993;

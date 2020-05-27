@@ -6,7 +6,7 @@ console.log("Africa");
 var emissionAbsolutAfrica: number = 1235.5;
 
 
-var relativeAfrica: number = 31116.5 / 100 * 1235.5;
+var relativeAfrica: number = 100 / (31116.5 / 1235.5);
 
 
 var growthAfrica: number = (1235.5 - 1028) / 1028;

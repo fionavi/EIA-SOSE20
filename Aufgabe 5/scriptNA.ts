@@ -5,7 +5,7 @@ console.log("Nordamerika");
 var emissionAbsolutNorthA: number = 6035.6;
 
 
-var relativeNorthA: number = 31116.5 / 100 * 6035.6;
+var relativeNorthA: number = 100 / (31116.5 / 6035.6);
 
 
 var growthNorthA: number = (6035.6 - 6600.4) / 6600.4;
