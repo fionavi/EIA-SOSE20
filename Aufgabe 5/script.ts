@@ -10,7 +10,7 @@ var relativeEurope: number = 100 / (31116.5 / 4209.3);
 var growthEurope: number = (4209.3 - 4965.7) / 4965.7;
 
 
-var growthAbsoluteEurope: number = 4209.3 - 14965.7;
+var growthAbsoluteEurope: number = 4209.3 - 4965.7;
 
 
 
