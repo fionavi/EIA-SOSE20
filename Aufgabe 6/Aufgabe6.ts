@@ -1,4 +1,7 @@
 
+
+window.addEventListener("load", function() {
+
 var emissionAbsolutEurope: number = 4209.3;
 var relativeEurope: number = 100 / (31116.5 / 4209.3);
 var growthEurope: number = ((4209.3 - 4965.7) / 4965.7) * 100;
@@ -41,15 +44,16 @@ function myeurope() {
     document.querySelector("#europa1").innerHTML = emissionAbsolutEurope;
     document.querySelector("#europa1text").innerHTML = "Emission absolute of Europe in 2018";
 
-    document.querySelector("#europa2").innerHTML = relativeEurope;
+    document.querySelector("#europa2").innerHTML = relativeEurope.toFixed(2)+ "%";
     document.querySelector("#europa2text").innerHTML = "Relative to total world's emission";
 
-    document.querySelector("#europa3").innerHTML = growthEurope;
+    document.querySelector("#europa3").innerHTML = growthEurope.toFixed(2)+ "%";
     document.querySelector("#europa3text").innerHTML = "Growth rate between 2008 and 2018 (in %)";
 
-    document.querySelector("#europa4").innerHTML = growthAbsoluteEurope;
+    document.querySelector("#europa4").innerHTML = growthAbsoluteEurope.toFixed(2);
     document.querySelector("#europa4text").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
 
+    console.log("test");
     }
 
     myeurope ();
@@ -64,13 +68,13 @@ function mynorthamerica() {
     document.querySelector("#europa1").innerHTML = emissionAbsolutNorthA;
     document.querySelector("#europa1text").innerHTML = "Emission absolute of North America in 2018";
     
-    document.querySelector("#europa2").innerHTML = relativeNorthA;
+    document.querySelector("#europa2").innerHTML = relativeNorthA.toFixed(2) + "%";
     document.querySelector("#europa2text").innerHTML = "Relative to total world's emission";
     
-    document.querySelector("#europa3").innerHTML = growthNorthA;
+    document.querySelector("#europa3").innerHTML = growthNorthA.toFixed(2) + "%";
     document.querySelector("#europa3text").innerHTML = "Growth rate between 2008 and 2018 (in %)";
     
-    document.querySelector("#europa4").innerHTML = growthAbsoluteNorthA;
+    document.querySelector("#europa4").innerHTML = growthAbsoluteNorthA.toFixed(2);
     document.querySelector("#europa4text").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
     
     }
@@ -87,19 +91,19 @@ function mysouthamerica() {
     document.querySelector("#europa1").innerHTML = emissionAbsolutSouthA;
     document.querySelector("#europa1text").innerHTML = "Emission absolute of South America in 2018";
 
-    document.querySelector("#europa2").innerHTML = relativeSouthA;
+    document.querySelector("#europa2").innerHTML = relativeSouthA.toFixed(2)  + "%";
     document.querySelector("#europa2text").innerHTML = "Relative to total world's emission";
 
-    document.querySelector("#europa3").innerHTML = growthSouthA;
+    document.querySelector("#europa3").innerHTML = growthSouthA.toFixed(2)  + "%";
     document.querySelector("#europa3text").innerHTML = "Growth rate between 2008 and 2018 (in %)";
 
         
-    document.querySelector("#europa4").innerHTML = growthAbsoluteSouthA;
+    document.querySelector("#europa4").innerHTML = growthAbsoluteSouthA.toFixed(2);
     document.querySelector("#europa4text").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         
     }
 
-    mysouthamerica();
+
 
 
 
@@ -111,19 +115,17 @@ function myafrica() {
     document.querySelector("#europa1").innerHTML = emissionAbsolutAfrica;
     document.querySelector("#europa1text").innerHTML = "Emission absolute of Africa in 2018";
 
-    document.querySelector("#europa2").innerHTML = relativeAfrica;
+    document.querySelector("#europa2").innerHTML = relativeAfrica.toFixed(2) + "%";
     document.querySelector("#europa2text").innerHTML = "Relative to total world's emission";
 
-    document.querySelector("#europa3").innerHTML = growthAfrica;
+    document.querySelector("#europa3").innerHTML = growthAfrica.toFixed(2) + "%";
     document.querySelector("#europa3text").innerHTML = "Growth rate between 2008 and 2018 (in %)";
 
         
-    document.querySelector("#europa4").innerHTML = growthAbsoluteAfrica;
+    document.querySelector("#europa4").innerHTML = growthAbsoluteAfrica.toFixed(2);
     document.querySelector("#europa4text").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         
     }
-
-    myafrica();
 
 
 
@@ -135,19 +137,19 @@ function myasia() {
     document.querySelector("#europa1").innerHTML = emissionAbsolutAsia;
     document.querySelector("#europa1text").innerHTML = "Emission absolute of Asia in 2018";
 
-    document.querySelector("#europa2").innerHTML = relativeAsia;
+    document.querySelector("#europa2").innerHTML = relativeAsia.toFixed(2) + "%";
     document.querySelector("#europa2text").innerHTML = "Relative to total world's emission";
 
-    document.querySelector("#europa3").innerHTML = growthAsia;
+    document.querySelector("#europa3").innerHTML = growthAsia.toFixed(2) + "%";
     document.querySelector("#europa3text").innerHTML = "Growth rate between 2008 and 2018 (in %)";
 
         
-    document.querySelector("#europa4").innerHTML = growthAbsoluteAsia;
+    document.querySelector("#europa4").innerHTML = growthAbsoluteAsia.toFixed(2);
     document.querySelector("#europa4text").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         
     }
 
-    myasia();
+ 
 
 
 
@@ -159,30 +161,29 @@ function myaustralia() {
     document.querySelector("#europa1").innerHTML = emissionAbsolutAustralia;
     document.querySelector("#europa1text").innerHTML = "Emission absolute of Australia in 2018";
 
-    document.querySelector("#europa2").innerHTML = relativeAustralia;
+    document.querySelector("#europa2").innerHTML = relativeAustralia.toFixed(2) + "%";
     document.querySelector("#europa2text").innerHTML = "Relative to total world's emission";
 
-    document.querySelector("#europa3").innerHTML = growthAustralia;
+    document.querySelector("#europa3").innerHTML = growthAustralia.toFixed(2) + "%";
     document.querySelector("#europa3text").innerHTML = "Growth rate between 2008 and 2018 (in %)";
 
         
-    document.querySelector("#europa4").innerHTML = growthAbsoluteAustralia;
+    document.querySelector("#europa4").innerHTML = growthAbsoluteAustralia.toFixed(2);
     document.querySelector("#europa4text").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         
     }
     
-    myaustralia()
 
 
 
-window.addEventListener("load", function() {
 
-    document.querySelector(".europe").addEventListener ("click", myeurope);
-    document.querySelector(".northamerica").addEventListener ("click", mynorthamerica);
-    document.querySelector(".southamerica").addEventListener ("click", mysouthamerica);
-    document.querySelector(".africa").addEventListener ("click", myafrica);
-    document.querySelector(".asia").addEventListener ("click", myasia);
-    document.querySelector(".australia").addEventListener ("click", myaustralia);
+
+    document.querySelector(".europe").addEventListener("click", myeurope);
+    document.querySelector(".northamerica").addEventListener("click", mynorthamerica);
+    document.querySelector(".southamerica").addEventListener("click", mysouthamerica);
+    document.querySelector(".africa").addEventListener("click", myafrica);
+    document.querySelector(".asia").addEventListener("click", myasia);
+    document.querySelector(".australia").addEventListener("click", myaustralia);
     
     
 
