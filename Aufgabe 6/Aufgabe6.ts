@@ -53,10 +53,9 @@ function myeurope() {
     document.querySelector("#europa4").innerHTML = growthAbsoluteEurope.toFixed(2);
     document.querySelector("#europa4text").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
 
-    console.log("test");
+
     }
 
-    myeurope ();
 
 
 
@@ -79,7 +78,7 @@ function mynorthamerica() {
     
     }
 
-    mynorthamerica();
+
 
     
 

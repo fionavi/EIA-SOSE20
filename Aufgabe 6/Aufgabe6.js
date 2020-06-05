@@ -35,9 +35,7 @@ window.addEventListener("load", function () {
         document.querySelector("#europa3text").innerHTML = "Growth rate between 2008 and 2018 (in %)";
         document.querySelector("#europa4").innerHTML = growthAbsoluteEurope.toFixed(2);
         document.querySelector("#europa4text").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
-        console.log("test");
     }
-    myeurope();
     function mynorthamerica() {
         document.querySelector("#titleRegion").innerHTML = "North America";
         document.querySelector(".chart").setAttribute("style", "height:" + relativeNorthA + "px");
@@ -50,7 +48,6 @@ window.addEventListener("load", function () {
         document.querySelector("#europa4").innerHTML = growthAbsoluteNorthA.toFixed(2);
         document.querySelector("#europa4text").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
     }
-    mynorthamerica();
     function mysouthamerica() {
         document.querySelector("#titleRegion").innerHTML = "South America";
         document.querySelector(".chart").setAttribute("style", "height:" + relativeSouthA + "px");
