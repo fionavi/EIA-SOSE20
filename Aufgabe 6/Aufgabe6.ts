@@ -18,7 +18,7 @@ var growthAbsoluteSouthA: number = 1261.5 - 1132.6;
 
 var emissionAbsolutAfrica: number = 1235.5;
 var relativeAfrica: number = 100 / (31116.5 / 1235.5);
-var growthAfrica: number = (1235.5 - 1028) / 1028;
+var growthAfrica: number = ((1235.5 - 1028) / 1028) * 100;
 var growthAbsoluteAfrica: number = 1235.5 - 1028;
 
 var emissionAbsolutAsia: number = 16274.1;
