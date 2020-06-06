@@ -1,5 +1,4 @@
 
-
 window.addEventListener("load", function() {
 
 var emissionAbsolutEurope: number = 4209.3;
@@ -44,10 +43,10 @@ function myeurope() {
     document.querySelector("#europa1").innerHTML = emissionAbsolutEurope;
     document.querySelector("#europa1text").innerHTML = "Emission absolute of Europe in 2018";
 
-    document.querySelector("#europa2").innerHTML = relativeEurope.toFixed(2)+ "%";
+    document.querySelector("#europa2").innerHTML = relativeEurope.toFixed(2) + "%";
     document.querySelector("#europa2text").innerHTML = "Relative to total world's emission";
 
-    document.querySelector("#europa3").innerHTML = growthEurope.toFixed(2)+ "%";
+    document.querySelector("#europa3").innerHTML = growthEurope.toFixed(2) + "%";
     document.querySelector("#europa3text").innerHTML = "Growth rate between 2008 and 2018 (in %)";
 
     document.querySelector("#europa4").innerHTML = growthAbsoluteEurope.toFixed(2);
@@ -90,10 +89,10 @@ function mysouthamerica() {
     document.querySelector("#europa1").innerHTML = emissionAbsolutSouthA;
     document.querySelector("#europa1text").innerHTML = "Emission absolute of South America in 2018";
 
-    document.querySelector("#europa2").innerHTML = relativeSouthA.toFixed(2)  + "%";
+    document.querySelector("#europa2").innerHTML = relativeSouthA.toFixed(2) + "%";
     document.querySelector("#europa2text").innerHTML = "Relative to total world's emission";
 
-    document.querySelector("#europa3").innerHTML = growthSouthA.toFixed(2)  + "%";
+    document.querySelector("#europa3").innerHTML = growthSouthA.toFixed(2) + "%";
     document.querySelector("#europa3text").innerHTML = "Growth rate between 2008 and 2018 (in %)";
 
         
@@ -177,13 +176,13 @@ function myaustralia() {
 
 
 
-    document.querySelector(".europe").addEventListener("click", myeurope);
-    document.querySelector(".northamerica").addEventListener("click", mynorthamerica);
-    document.querySelector(".southamerica").addEventListener("click", mysouthamerica);
-    document.querySelector(".africa").addEventListener("click", myafrica);
-    document.querySelector(".asia").addEventListener("click", myasia);
-    document.querySelector(".australia").addEventListener("click", myaustralia);
-    
+document.querySelector(".europe").addEventListener("click", myeurope);
+document.querySelector(".northamerica").addEventListener("click", mynorthamerica);
+document.querySelector(".southamerica").addEventListener("click", mysouthamerica);
+document.querySelector(".africa").addEventListener("click", myafrica);
+document.querySelector(".asia").addEventListener("click", myasia);
+document.querySelector(".australia").addEventListener("click", myaustralia);
+
     
 
 })
