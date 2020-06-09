@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
     var growthAbsoluteSouthA = 1261.5 - 1132.6;
     var emissionAbsolutAfrica = 1235.5;
     var relativeAfrica = 100 / (31116.5 / 1235.5);
-    var growthAfrica = (1235.5 - 1028) / 1028;
+    var growthAfrica = ((1235.5 - 1028) / 1028) * 100;
     var growthAbsoluteAfrica = 1235.5 - 1028;
     var emissionAbsolutAsia = 16274.1;
     var relativeAsia = 100 / (31116.5 / 16274.1);
