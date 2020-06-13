@@ -139,9 +139,9 @@ body {
     border-radius: 15px;
   }
 
-  #playbutton {
-      position: relative;
-      margin-top: 10px;
-      margin-left: 48%;
-      margin-right: 52%;
-  }
+  .playbutton {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 41%;
+}
+
