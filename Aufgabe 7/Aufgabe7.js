@@ -52,11 +52,9 @@ window.addEventListener("load", function () {
 });
 function beat() {
     setInterval(function () {
-        audio1.play();}, 400);
-    setInterval(function () {
-        audio2.play();}, 200);
-    setInterval(function () {
-        audio3.play();}, 800);
-    
+        audio1.play();
+        audio2.play();
+        audio3.play();
+    }, 500);
 }
 //# sourceMappingURL=Aufgabe7.js.map
