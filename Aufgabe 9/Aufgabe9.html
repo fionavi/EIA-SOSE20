@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>To Do App</title>
+
+    <link rel="stylesheet" href="stylesheet9.css">
+    <script src="Aufgabe9.js"></script>
+
+    <script src="https://kit.fontawesome.com/4f6e0f2f94.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1>ToDo App</h1>
+    <h2 id="count">X tasks in total</h2>
+
+    <ul id="LI">
+
+
+        <li id="feld1" value="1">
+            <input type="checkbox"> eat<i  class="fas fa-trash-alt delete" style=" color:slategrey; font-size: 15px;"></i>
+        </li>
+
+
+        <li id="feld2" value="1">
+            <input type="checkbox"> sleep<i class="fas fa-trash-alt delete" style=" color:slategrey; font-size: 15px;"></i>
+        </li>
+
+
+        <li id="feld3" value="1">
+            <input type="checkbox"> repeat<i class="fas fa-trash-alt delete" style=" color:slategrey; font-size: 15px;"></i>
+        </li>
+
+    </ul>
+
+    <input id="myInput" type="text" placeholder="new Task...">
+    <button onclick="addElement()" class="addBtn">Add</button>
+
+
+
+</body>
+
+</html>
