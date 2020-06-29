@@ -1,5 +1,5 @@
 // Zusammenarbeit mit Colleen Zeller
-console.log("hahahahahio");
+
 var kinder: number = 3;
 
 window.addEventListener("load", function () {
@@ -43,8 +43,7 @@ function removeElement(feld: number): void {
   var LI = document.getElementById("LI");
   var task: number = 0;
   LI.removeChild(LI.childNodes[feld]);
-  // LI.removeChild(LI.childNodes[1]);
-  // LI.removeChild(LI.childNodes[2]);
+
 }
 
 kinder--;
