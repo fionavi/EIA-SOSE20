@@ -3,9 +3,9 @@ console.log("hahahahahio");
 var kinder: number = 3;
 
 window.addEventListener("load", function () {
-  document.querySelectorAll(".delete")[0].addEventListener("click", function() {removeElement(0); });
-  document.querySelectorAll(".delete")[1].addEventListener("click", function() {removeElement(1); });
-  document.querySelectorAll(".delete")[2].addEventListener("click", function() {removeElement(2); });
+  document.querySelectorAll(".delete").addEventListener("click", function () { removeElement(); });
+  document.querySelectorAll(".delete").addEventListener("click", function () { removeElement(); });
+  document.querySelectorAll(".delete").addEventListener("click", function () { removeElement(); });
 });
 
 
@@ -28,7 +28,7 @@ function addElement(): void {
 
   var icon: HTMLElement = document.createElement("i");                     //erstelle ein Element
   icon.className = "fas fa-trash-alt delete";                            //gebe Elemet Klasse "fas..."
-  icon.addEventListener("click", function() {removeElement(kinder); }); 
+  icon.addEventListener("click", function () { removeElement(kinder); });
   li.appendChild(icon);                                       //füge zu neuem li Element das Icon hinzu
 
   kinder++;
@@ -38,40 +38,17 @@ function addElement(): void {
 
 
 
-
-//Versuche Löschfuntion: 
-
-/* function removeElement(): void {
-var bye = document.getElementsByClassName("delete");
-delete.removeChild; 
-} */
-
-
-// function removeElement(feld: number): void {
-//   switch (feld) {
-//     case 0:
-
-      
-//       break;
-  
-//     default:
-//       break;
-//   }
-// }
-
-
 function removeElement(feld: number): void {
 
   var LI = document.getElementById("LI");
   var task: number = 0;
-  if (LI.hasChildNodes()) {
-    LI.removeChild(LI.childNodes[feld]);
-    // LI.removeChild(LI.childNodes[1]);
-    // LI.removeChild(LI.childNodes[2]);
-  }
+  LI.removeChild(LI.childNodes[feld]);
+  // LI.removeChild(LI.childNodes[1]);
+  // LI.removeChild(LI.childNodes[2]);
+}
 
-  kinder--;
-  counter();
+kinder--;
+counter();
 
 }
 
