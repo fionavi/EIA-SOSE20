@@ -1,11 +1,10 @@
 "use strict";
 // Zusammenarbeit mit Colleen Zeller
-console.log("hahahahahio");
 var kinder = 3;
 window.addEventListener("load", function () {
-    document.querySelectorAll(".delete")[0].addEventListener("click", function () { removeElement(0); });
-    document.querySelectorAll(".delete")[1].addEventListener("click", function () { removeElement(1); });
-    document.querySelectorAll(".delete")[2].addEventListener("click", function () { removeElement(2); });
+    document.querySelectorAll(".delete").addEventListener("click", function () { removeElement(); });
+    document.querySelectorAll(".delete").addEventListener("click", function () { removeElement(); });
+    document.querySelectorAll(".delete").addEventListener("click", function () { removeElement(); });
 });
 function addElement() {
     var li = document.createElement("li"); //erstelle neues Listenelement
@@ -23,30 +22,13 @@ function addElement() {
     kinder++;
     counter();
 }
-//Versuche Löschfuntion: 
-/* function removeElement(): void {
-var bye = document.getElementsByClassName("delete");
-delete.removeChild;
-} */
-// function removeElement(feld: number): void {
-//   switch (feld) {
-//     case 0:
-//       break;
-//     default:
-//       break;
-//   }
-// }
 function removeElement(feld) {
     var LI = document.getElementById("LI");
     var task = 0;
-    if (LI.hasChildNodes()) {
-        LI.removeChild(LI.childNodes[feld]);
-        // LI.removeChild(LI.childNodes[1]);
-        // LI.removeChild(LI.childNodes[2]);
-    }
-    kinder--;
-    counter();
+    LI.removeChild(LI.childNodes[feld]);
 }
+kinder--;
+counter();
 function counter() {
     var index = 0;
     console.log("Anzahl Aufgaben:" + kinder);
