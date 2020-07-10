@@ -403,7 +403,7 @@ function deleteTodo(index: number): void {
 
 }
 
-//Spracheingabe:
+//Spracheingabe: Mit Colleen Zeller ausgetauscht
 
   
 declare var Artyom: any;
